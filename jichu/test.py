@@ -1,10 +1,5 @@
 #coding:utf-8
 
-a = [i**2 for i in range(1,10)]
-c = [j+1 for j in range(1,10)]
-k = [n for n in range(1,10) if n % 2 ==0]
-z = [letter.lower() for letter in 'ABCDEFGHIGKLMN']
-print(a)
-print(c)
-print(k)
-print(z)
+lyric = 'The night begin to shine, the night begin to shine'
+words = lyric.split()
+print(words)
